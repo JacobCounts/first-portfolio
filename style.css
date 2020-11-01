@@ -2,7 +2,11 @@
 
 
 body {
-    background-color: lemonchiffon;
+    background-image: url(images/image_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
 .my-row {
@@ -14,4 +18,21 @@ body {
 .custom {
     margin-left: 5%;
     
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    height: 10%;
+    text-align: center;
+    border-top: 7px solid aqua;
+}
+.navbar-text {
+    background-color: hotpink;
+    color: greenyellow;
+    font-size: 150%;
+    font-weight: bold;
 }
