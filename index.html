@@ -13,14 +13,14 @@
 
 <body>
     <!--begin nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand navbar-text" href="#">Jacob Counts</a>
+    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light" style="background-color:aquamarine">
+        <a class="navbar-brand navbar-text" href="index.html">Jacob Counts</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                 </li>
@@ -36,29 +36,35 @@
     </nav>
     <!--end nav bar-->
 
-    <div class="container w-75 custom">
-        <div class="row my-row">
-            <div class="col-md-8 mt-3">
-                <h1>About Me</h1>
+    <div class="container custom">
+        <div class="col-md-12 test">
+            <div class="row">
+                <div class="col-md-8 mt-3 test">
+                    <h1>About Me</h1>
+                    <hr>
+                    </hr>
+                </div>
             </div>
-        </div>
-        <div class="row my-row">
-            <div class="col-md-3">
-                <img src="http://placekitten.com/250/200" alt="kitten" class="img-thumbnail">
+            <div class="row">
+                <div class="col-md-3 test">
+                    <img src="http://via.placeholder.com/350/350.png" alt="kitten" class="img-thumbnail">
+                </div>
+                <div class="col-md-5 test">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, labore illum eveniet,
+                        animi
+                        excepturi expedita unde commodi fuga voluptas necessitatibus, voluptatibus dolor. Maiores nobis
+                        dolore cupiditate, assumenda debitis aut voluptatem.</p>
+                </div>
             </div>
-            <div class="col-md-5">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, labore illum eveniet, animi
-                    excepturi expedita unde commodi fuga voluptas necessitatibus, voluptatibus dolor. Maiores nobis
-                    dolore cupiditate, assumenda debitis aut voluptatem.</p>
-            </div>
-        </div>
 
 
-        <div class="row my-row">
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, iste alias omnis dolores a sequi
-                    asperiores dolor aspernatur quas in ratione ipsa natus aliquid provident eius magni recusandae harum
-                    placeat?</p>
+            <div class="row">
+                <div class="col-md-8 test">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, iste alias omnis dolores a sequi
+                        asperiores dolor aspernatur quas in ratione ipsa natus aliquid provident eius magni recusandae
+                        harum
+                        placeat?</p>
+                </div>
             </div>
         </div>
     </div>
@@ -66,14 +72,13 @@
 
 
 
+    <footer>
 
-    <footer> 
-
-    <div class="footer">
-        <p>Copyright</p>
-    </div>
+        <div class="footer">
+            <p>&#169 Copyright</p>
+        </div>
     </footer>
-    
+
     <!-- jQuery and JS bundle w/ Popper.js from bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
