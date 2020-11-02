@@ -1,11 +1,8 @@
-
-
-
 body {
     background-image: url(images/image_1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+}/*added image to file*/
 
 .test {
     background-color: gray;
@@ -32,7 +29,7 @@ footer {
     font-size: 150%;
     font-weight: bold;
     border-radius: 10px;
-   padding: 10px;
+    padding: 10px;
 }
 
 
