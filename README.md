@@ -1,7 +1,7 @@
-# first-portfolio
+# First-portfolio
 
 # Description
-During this project I used HTML and code snippets from BootStrap to make my portfolio.
+During this project I used BootStrap for the layout and styled with CSS.
 This is the first of many projects moving foward. I spent several hours figuring out how to add and modify
 content to the bootstrap code to make it my own and add some additional style.
 
