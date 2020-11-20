@@ -17,4 +17,4 @@ and links.
 
 ## Link to project
 
-()
+https://jacobcounts.github.io/first-portfolio/
