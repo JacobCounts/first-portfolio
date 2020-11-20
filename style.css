@@ -32,5 +32,14 @@ footer {
     padding: 10px;
 }
 
-
+.btn1 {
+    padding: 12px 16px;
+    color: black;
+    border: none;
+    background-color: rgb(50, 179, 179);
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 12px;
+}
 
