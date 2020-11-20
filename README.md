@@ -19,4 +19,4 @@ and links.
 
 https://jacobcounts.github.io/first-portfolio/
 
-![](images
+![](Images/Screen%20Shot%202020-11-19%20at%207.42.31%20PM.png)
