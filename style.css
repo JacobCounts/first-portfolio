@@ -6,6 +6,7 @@ body {
 
 .test {
     background-color: gray;
+   
 }
 .custom {
     margin-left: 5%;
@@ -30,6 +31,7 @@ footer {
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0px 6px 10px black;
 }
 
 .btn1 {
@@ -41,5 +43,27 @@ footer {
     margin-left: 20px;
     text-decoration: none;
     border-radius: 12px;
+    box-shadow: 0px 6px 10px black;
 }
 
+.btn2 {
+    padding: 15px;
+    margin-left: 15px;
+    background-color: darkgray;
+    box-shadow: 0px 6px 10px black;
+    border-radius: 5px;
+}
+
+.img-thumbnail {
+    box-shadow: 5px 5px 15px black;
+}
+
+h1 {
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 40px;
+}
+
+a {
+    font-family: 'Cinzel Decorative', cursive;
+}
