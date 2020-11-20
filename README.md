@@ -18,3 +18,5 @@ and links.
 ## Link to project
 
 https://jacobcounts.github.io/first-portfolio/
+
+![](Images/Screen%20Shot%202020-11-19%20at%207.42.31%20PM.png)
