@@ -40,7 +40,7 @@ npm test
 * email: infamous213@gmail.com
 * gitHub: [gitHub](https://github.com/JacobCounts)
 
-![](first-portfolio/blob/main/Images/Portfolio.png)
+![](Images/Portfolio.png)
 
 ## Link to project
 
