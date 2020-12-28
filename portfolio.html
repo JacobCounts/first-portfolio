@@ -10,16 +10,19 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 
 <body>
     <!--begin nav bar-->
-    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light" style="background-color:aquamarine">
-        <a class="navbar-brand navbar-text" href="index.html">Jacob Counts</a>
-
-        <button class="btn1"><a href="https://www.linkedin.com/in/jacob-counts-940aab1b7/" target="_blank">Linkedin</a></button>
-
-        <button class="btn1"><a href="https://github.com/JacobCounts" target="_blank">GitHub</a></button>
+    <nav class="navbar navbar navbar-expand-lg navbar-light" style="background-color:rgb(85, 105, 99)">
+        <a class="navbar-brand navbar-text" href="index.html"style="color: white;">Jacob Counts</a>
+        <a href="https://github.com/JacobCounts">
+            <i class="fab fa-github fa-3x" id="icon"></i><br> 
+            </a>
+            <a href="https://www.linkedin.com/in/jacob-counts-940aab1b7/">
+                <i class="fab fa-linkedin fa-3x"></i><br> 
+                </a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,55 +47,96 @@
 
     <!--added class to style in css-->
     
-    <div class="container custom">
-        <div class="col-md-12 test">
-            <div class="row">
-                <div class="col md-8 mt-3 test">
-                    <h1>Portfolio</h1>
-                    
-                    
-                    <hr>
-                    </hr>
+    <div class="container mt-2">
+        <div class="row">
+          <div class="col-sm">
+            
+            <div class="card text-center" style="width: 20rem;">
+                <img src="Images/JingleAllTheWay.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jingle All The Way</h5>
+                  <p class="card-text">Class project #2. Allows user to create a gift list using etsy</p>
+                  <a href="https://jingle-all-the-way.herokuapp.com/" class="btn btn-primary">View App</a>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 mt-4">
-                    <img src="Images/IMG_2119.jpeg" alt="image" class="img-thumbnail">
+              </div>
+          </div>
+          <div class="col-sm">
+            
+            <div class="card text-center" style="width: 20rem;">
+                <img src="Images/BurgerApp.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eat Da Burger</h5>
+                  <p class="card-text">Allows user to add a burger to the list and doevour it!</p>
+                  <a href="https://eat-da-burger-jpc.herokuapp.com/" class="btn btn-primary">View App</a>
                 </div>
-                <div class="col-md-6 mt-4">
-                    <img src="Images/IMG_0006.jpeg" alt="image" class="img-thumbnail">
+              </div>
+          </div>
+          <div class="col-sm">
+            
+            <div class="card text-center" style="width: 20rem;">
+                <img src="Images/NoteTakerApp.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Note Taker</h5>
+                  <p class="card-text">A simple app that allows user to add/remove notes </p>
+                  <a href="https://jpc-note-taker.herokuapp.com/" class="btn btn-primary">View App</a>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 mt-4">
-                    <img src="Images/IMG_0012.jpeg" alt="image" class="img-thumbnail">
-                </div>
-                <div class="col-md-6 mt-4">
-                    <img src="Images/IMG_1147.jpeg" alt="image" class="img-thumbnail">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 mt-4">
-                    <img src="Images/IMG_2132.jpeg" alt="image" class="img-thumbnail">
-                </div>
-            </div>
+              </div>
+          </div>
         </div>
+        <div class="row mt-1">
+            <div class="col-sm">
+              
+              <div class="card text-center" style="width: 20rem;">
+                  <img src="Images/AutoMate.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Auto Mate</h5>
+                    <p class="card-text">Class project #1. User can enter VIN# and find stats of vehicle</p>
+                    <a href="https://malsham3.github.io/auto-mate/" class="btn btn-primary">View App</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm">
+              
+              <div class="card text-center" style="width: 20rem;">
+                  <img src="Images/QuizGame.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Quiz Game</h5>
+                    <p class="card-text">Quiz game about history of the USA. Created using JavaScript</p>
+                    <a href="https://jacobcounts.github.io/jsQuiz-game/" class="btn btn-primary">View App</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm">
+              
+              <div class="card text-center" style="width: 20rem;">
+                  <img src="Images/WeatherDash.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">Allow user to enter city and get current and 5 day forcast</p>
+                    <a href="https://jacobcounts.github.io/weatherDashboard/" class="btn btn-primary">View App</a>
+                  </div>
+                </div>
+            </div>
+          </div>
     </div>
-
-    <footer>
-
-        <div class="footer">
-            <p>&#169 Copyright</p>
-        </div>
-    </footer>
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <!-- jQuery and JS bundle w/ Popper.js from bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-</body>
-
+    </body>
+                    
 </html>
