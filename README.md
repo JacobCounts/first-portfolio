@@ -5,7 +5,7 @@
 
     
 ## Description: 
-About me. Links to projects
+A portfolio page about me with links to projects completed so far throughout this course.
 
 ## Table of Contents:
 
